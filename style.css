@@ -114,17 +114,9 @@ header {
     display: flex;
 }
 
-.navigate__log_in {
-
-}
-
 .support{
     display: flex;
     justify-content: space-between;
-}
-
-.support__info {
-
 }
 
 .page_switcher{
@@ -167,10 +159,6 @@ header {
     padding: 16px 36px 18px;
 }
 
-.support__contacts_txt {
-    
-}
-
 .support__contacts_top {
     color: #33836E;
     font-weight: 700;
@@ -202,17 +190,10 @@ header {
     gap: 10px;
 }
 
-.support__features_block_txt{
-}
-
 .legal_assistance {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.legal_assistance__title {
-    
 }
 
 .legal_assistance__text {
@@ -229,12 +210,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.advice__title {
-}
-
-.advice__text {
 }
 
 .advice__row{
@@ -258,25 +233,15 @@ header {
     width: 24px;
 }
 
-
-.advice__block_txt {    
-}   
-
 .advice__block_link {
     color: #33836E;
     font-weight: 600;
-}
-
-.advert{
 }
 
 .service{
     display: flex;
     flex-direction: column;
     gap: 40px;
-}
-
-.service__title {
 }
 
 .service__mimimi {
@@ -310,9 +275,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.choose_us__title {
 }
 
 .choose_us__txt {
@@ -400,9 +362,6 @@ header {
     color: rgba(47, 43, 67, 0.4);
 }
 
-.choose_us__bottom_right_mimi_middle_left_bot {
-}
-
 .choose_us__bottom_right_mimi_middle2 {
     font-weight: 600;
     color: #FFFFFF;
@@ -431,9 +390,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 40px;
-}
-
-.speciality__title {    
 }
 
 .speciality__rectangles {
@@ -465,9 +421,6 @@ header {
     gap: 16px;
 }
 
-.speciality__block_txt_title_text {
-}
-
 .speciality_hr {
     background: #33836E;
     height: 2px;
@@ -482,9 +435,6 @@ header {
     font-size: 14px;
 }
 
-.ask_lawyer {
-}
-
 .seo {
     display: flex;
     flex-direction: column;
@@ -495,9 +445,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.seo__title {
 }
 
 .seo__txt_text {
@@ -522,10 +469,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 40px;
-}
-
-.reviews__title {
-
 }
 
 .reviews__block {
@@ -602,10 +545,6 @@ header {
     gap: 40px;
 }
 
-.experts__title {
-
-}
-
 .experts__main {
     display: flex;
     gap: 20px;
@@ -647,10 +586,6 @@ header {
 .experts__card_name {
     font-size: 18px;
     font-weight: 600;
-}
-
-.experts__card_rank {
-
 }
 
 .experts__card_count {
@@ -769,8 +704,4 @@ border: none;
 .experts_mimimimi_bot_text_title {
     font-size: 20px;
     font-weight: 700;
-}
-
-.experts_mimimimi_bot_text_txt {
-
 }
