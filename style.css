@@ -9,6 +9,10 @@ h1 {
     margin: 0;
 }
 
+section {
+    margin-top: 80px;
+}
+
 h2{
         font-size: 32px;
         margin: 0;
@@ -129,10 +133,10 @@ header {
 }
 
 .support{
-    margin-top: 80px;
     display: flex;
     justify-content: space-between;
 }
+
 .support__info {
 
 }
@@ -216,7 +220,6 @@ header {
 }
 
 .legal_assistance {
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -231,7 +234,6 @@ header {
 }
 
 .advice {
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -280,11 +282,9 @@ header {
 }
 
 .advert{
-    margin-top: 80px;
 }
 
 .service{
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -318,7 +318,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 80px;
 }
 
 .choose_us__top_left {
@@ -446,7 +445,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-top: 80px;
 }
 
 .speciality__title {    
@@ -499,14 +497,12 @@ header {
 }
 
 .ask_lawyer {
-    margin-top: 80px;
 }
 
 .seo {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-top: 80px;
 }
 
 .seo__txt {
@@ -537,8 +533,74 @@ header {
 }
 
 .reviews {
-    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .reviews__title {
+
+}
+
+.reviews__block {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.reviews__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 360px;
+    padding: 30px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 20px;
+}
+
+.reviews__card_top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.reviews__card_user {
+    display: flex;
+    gap: 16px;
+}
+
+.reviews__user_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__username {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.reviews__date {
+    color: rgba(47, 43, 67, 0.5);
+    margin-top: 4px;
+}
+
+.reviews__text {
+    line-height: 160%;
+}
+
+.reviews__card_bot {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.reviews__card_bot_questiion {
+    line-height: 14px;
+    color: rgba(47, 43, 67, 0.5);
+}
+
+.reviews__card_bot_txt {
+    color: #33836E;
+    line-height: 150%;
+    font-weight: 600;
 }
